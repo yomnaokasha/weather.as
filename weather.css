@@ -1,0 +1,71 @@
+#head {
+  height: 100px;
+  display: flex;
+  color: azure;
+  justify-content: center;
+  background-color: rgb(137, 170, 214);
+  align-items: center;
+}
+h1 {
+  font-size: 50px;
+}
+.cities {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  list-style-type: none;
+  align-items: center;
+}
+#temperature {
+  display: flex;
+  align-items: center;
+}
+#firstcity {
+  font-size: 25px;
+}
+.photo {
+  border-radius: 50%;
+  width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#selected {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+#container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.column {
+  background-color: rgb(231, 231, 231);
+  margin: 15px;
+  text-align: center;
+}
+#cookie {
+  margin: auto;
+  width: 550px;
+  display: flex;
+  border: solid;
+  border-color: black;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(231, 231, 231);
+}
+#accept {
+  background-color: rgb(167, 196, 244);
+  border: solid;
+  box-shadow: 3px 3px black;
+  width: 80px;
+  margin-top: 25px;
+}
+#icon {
+  height: 60px;
+}

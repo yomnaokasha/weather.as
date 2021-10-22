@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="weather.css" />
+    <script src="weather.js" defer></script>
+    <title>weather</title>
+  </head>
+  <body>
+    <div id="head">
+      <h1>DojoWeather</h1>
+      <ul     class="cities">
+        <li onclick="show()">Burbank</li>
+        <li onclick="show()">chicago</li>
+        <li onclick="show()">Dallas</li>
+      </ul>
+    </div>
+      <div id="selected">
+        <p id="firstcity">San Jose</p>
+        <div id="temperature">
+        <p>show temperature in</p>
+        <select name="weather">
+          <option>F</option>
+          <option>C</option>
+        </select>
+      </div>
+      </div>
+      <div id="container">
+      <div class="column">
+        <h2>Today</h2>
+        <img  class="photo" src="images/some_rain.png" alt="rain" />
+        <p>some rain</p>
+        <p class="temp">24 18</p>
+      </div>
+      <div class="column">
+        <h2>Tomorrow</h2>
+        <img  class="photo" src="images/some_sun.png"  alt="sun" />
+        <p>some sun</p>
+        <p> 27 19</p>
+      </div>
+      <div class="column">
+        <h2>Friday</h2>
+        <img class="photo" src="images/some_clouds.png" alt="clouds" />
+        <p>some clouds</p>
+        <p>21 16</p>
+      </div>
+      <div class="column">
+        <h2>Saturday</h2>
+        <img class="photo" src="images/some_sun.png" alt="sun" />
+        <p>some sun</p>
+        <p>26 21</p>
+      </div>
+    </div>
+      <div id="cookie">
+        <img  id="icon"   src="images/cookie.png" alt="cookie" />
+        <div>
+          <h2>Stop! Cookie Time</h2>
+          <p>we use cookies (sadly not the edible ones) to personalize</p>
+          <p>content and ads, to provide social media featurse and to</p>
+          <p>analyse our traffic <a href="#"> Read more</a></p>
+        </div>
+        <button onclick="hide()" id="accept">I Accept</button>
+      </div>
+    </div>
+  </body>
+</html>
